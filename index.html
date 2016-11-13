@@ -58,6 +58,7 @@ display:none;
     <li class="w3-right w3-hide-small">
 		<a href="#home">HOME</a>
       <a href="#about">ABOUT</a>
+		<a href="#agile">AGILE</a>	  
       <a href="#team">TEAM</a>
       <a href="#techs">TECHS</a>
       <!--<a href="#pricing">PRICING</a>-->
@@ -77,6 +78,7 @@ display:none;
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-large w3-padding-16">Close</a>
   <a href="#home" onclick="w3_close()">HOME</a>
   <a href="#about" onclick="w3_close()">ABOUT</a>
+    <a href="#agile" onclick="w3_close()">AGILE</a>
   <a href="#team" onclick="w3_close()">TEAM</a>
   <a href="#techs" onclick="w3_close()">TECHS</a>
   <!--<a href="#pricing" onclick="w3_close()">PRICING</a>-->
@@ -128,12 +130,21 @@ display:none;
 </div>
 
 <!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey w3-padding-64">
+<div class="w3-container w3-light-grey w3-padding-64" id="agile">
   <div class="w3-row-padding">
     <div class="w3-col m6">
-      <h3>Agile is the new black</h3>
-      <p>Parrafo en el cual comentamos como encaramos los proyectos una vez que comienzan, encarandolos con metodologias agiles, entregables y reportes de status</p>
-      <p><a href="#techs" class="w3-btn">View Our Techs</a><a style="float:right" href="#contact" class="w3-btn">Contact us</a></p>
+      <h3 style="font-weight:bold;font-size:32px;">Agile is the new black</h3>
+      <p>Agile methodologies offer a flexible approach on requirement changing in the software development process.
+		The constant meetings with the clients allow them to be closer to the project, to be part of it and to provide feedback on the fly.
+		Deliveries focus on smaller quantities of product provided in smaller time periods.
+		In the garage we move quickly, obtaining an improvement in the team's involvement, saving both time and costs, maximizing development speed and efficiency, delivering a higher quality product in a shorter time.
+		We propose to be part of your own project, being with us in the day to day, being one more of us, seeing your product and business opportunities grow up.
+		</p>
+		<p style="font-weight:bold">
+		Agile is the new black, and we know it.
+		Take a look at the technologies we handle, and feel free to contact us for talks about projects, <span style="font-weight:bold;font-size:20px;">ideas, </span><span style="font-weight:bold;font-size:24px;">dreams...	</span> <span style="font-weight:bold;font-size:28px;">life.</span>
+	  </p>
+      <p><a href="#techs" class="w3-btn">View our techs</a><a style="float:right" href="#contact" class="w3-btn">Contact us</a></p>
 
     </div>
     <div class="w3-col m6">
@@ -145,9 +156,20 @@ display:none;
 <!-- Team Section -->
 <div class="w3-container w3-padding-128" id="team">
   <h3 class="w3-center">THE TEAM</h3>
-  <p class="w3-center w3-large">The ones who runs this company</p>
+  <p class="w3-center w3-large">The ones who runs this garage</p>
   <div class="w3-row-padding style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <img src="media/avatar.png" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Comming soon</h3>
+          <p class="w3-opacity">Art director</p>
+          <p><button class="w3-btn-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+	    <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card-2">
         <img src="media/dario.jpg" alt="John" style="width:100%">
         <div class="w3-container">
@@ -159,30 +181,20 @@ display:none;
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card-2">
-        <img src="media/dario.jpg" alt="Jane" style="width:100%">
+        <img src="media/avatar.png" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">Art Director</p>
-          <p><button class="w3-btn-block">Contact</button></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card-2">
-        <img src="media/dario.jpg" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Web Designer</p>
+          <h3>Team 2</h3>
+          <p class="w3-opacity">CTO & Founder</p>
           <p><button class="w3-btn-block">Contact</button></p>
         </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom" >
       <div class="w3-card-2">
-        <img src="media/dario.jpg" alt="Dan" style="width:100%">
+        <img src="media/avatar.png" alt="Dan" style="width:100%">
         <div class="w3-container">
-          <h3>Dan Star</h3>
-          <p class="w3-opacity">Designer</p>
+          <h3>Comming soon</h3>
+          <p class="w3-opacity">HR</p>
           <p><button class="w3-btn-block">Contact</button></p>
         </div>
       </div>
@@ -373,18 +385,21 @@ display:none;
     <div class="w3-half">
       <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Montevideo, Uruguay</p>
       <!--<p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: </p>-->
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: contact@starkgarage.com</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: starkgaragetechnologies@gmail.com</p>
       <br>
-      <input class="w3-input w3-border" type="text" placeholder="Name">
-      <input class="w3-input w3-border w3-section" type="text" placeholder="Email">
-      <input class="w3-input w3-border w3-section" type="text" placeholder="Subject">
-      <input class="w3-input w3-border w3-section" type="text" placeholder="Comment">
-      <button id ="btnSend" class="w3-btn w3-section" onclick="sendMail()">
+	  
+	  <form id="myform" onsubmit="sendMail(); return false;" method="post">
+      <input class="w3-input w3-border" type="text" placeholder="Name" name="from_name">
+      <input class="w3-input w3-border w3-section" type="text" placeholder="Email" name="from_email">
+      <input class="w3-input w3-border w3-section" type="text" placeholder="Subject"  name="subject">
+      <input class="w3-input w3-border w3-section" type="text" placeholder="Comment" name="message">
+      <button id ="btnSend" class="w3-btn w3-section">
         <i class="fa fa-paper-plane"></i> SEND MESSAGE
       </button>
       <button id="btnSent" class="w3-btn w3-section">
         MESSAGE <i class="fa fa-paper-plane"></i> SENT
       </button>
+	  </form>
     </div>
 
   </div>
@@ -405,6 +420,12 @@ display:none;
 
 <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2BoF3FggtJfmO9seP6Rja8d5GY6I502k" type="text/javascript"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_eNWoKjrTSPsoyKm8B6pZQ");
+   })();
+</script>
 <script>
 <!-- Google Map Location -->
 var myCenter = new google.maps.LatLng(-34.865295,-56.1829491);
@@ -464,7 +485,12 @@ $(function() {
 });
 
 
-
+function clean(){
+document.getElementsByName("from_name")[0].value= "";
+document.getElementsByName("from_email")[0].value= "";
+document.getElementsByName("subject")[0].value= "";
+document.getElementsByName("message")[0].value= "";
+}
 
 function sendMail(){
 $("#btnSend").fadeOut("slow");
@@ -472,8 +498,26 @@ $("#btnSend").fadeOut("slow");
 //ENVIAR MENSAJE
 
 
-$("#btnSent").delay(1000).fadeIn("slow");
+  var service_id = "default_service";
+  var template_id = "contact_template";
+emailjs.sendForm(service_id,template_id,"myform")
+  	.then(function(){ 
+    	clean();
+		$("#btnSent").fadeIn("slow");
+    }, function(err) {
+       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+    });
+
+
+
+
 }
+
+
+(function(){
+  emailjs.init("user_eNWoKjrTSPsoyKm8B6pZQ");
+})();
+
 </script>
 
 </body>
