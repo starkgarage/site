@@ -41,12 +41,80 @@ display:none;
 
 
 
+
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 1000;
+}
+ 
+
+
+#loader {
+    z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
+	left: 45%;
+	top: 40%;
+    position: relative;
+	width: 10%;
+
+}
+
+
+ 
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded #loader {
+	opacity: 0;
+        -webkit-transition: all 0.3s 0.1s ease-out; 
+                transition: all 0.3s 0.1s ease-out;				
+}
+
+
+.loaded #loader-section {	
+    opacity: 0;
+    -webkit-transition: all 1s ease-out; 
+            transition: all 1s ease-out;
+			visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </style>
 <head>
 <link rel="icon" href="media/tablogo.png">
 
 </head>
 <body>
+
+
+
+      <div id="loader-wrapper">
+         <div id="loader-section" class="loader-section">    
+            <img id="loader" src="media/load.gif" >
+         </div>
+      </div>
+
+
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -427,6 +495,20 @@ display:none;
    })();
 </script>
 <script>
+
+
+<!--LOADING WRAPPER-->
+
+$(document).ready(function () {
+        $('#loader-wrapper').addClass('loaded');
+		$('#loader-section').addClass('loaded');
+})
+
+
+
+
+
+
 <!-- Google Map Location -->
 var myCenter = new google.maps.LatLng(-34.865295,-56.1829491);
 
@@ -507,9 +589,6 @@ emailjs.sendForm(service_id,template_id,"myform")
     }, function(err) {
        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
     });
-
-
-
 
 }
 
