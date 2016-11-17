@@ -1,141 +1,250 @@
 @keyframes colorchangeBlue
 {
-  0%   {color: blue;}
-  12.5%  {color: black;}
-  25%  {color: black;}
-  37.5%  {color: black;}
-  50% {color: black;}
-  62.5%  {color: black;}
-  75%  {color: black;}
-  87.5%  {color: black;}
-  100% {color: blue;}
+  0%   {color: black;}
+  8.33333333333%   {color: blue;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
+  100% {color: black;}
 }
 
 @-webkit-keyframes colorchangeBlue /* Safari and Chrome - necessary duplicate */
 {
-  0%   {color: blue;}
-  12.5%  {color: black;}
-  25%  {color: black;}
-  37.5%  {color: black;}
-  50% {color: black;}
-  62.5%  {color: black;}
-  75%  {color: black;}
-  87.5%  {color: black;}
-  100% {color: blue;}
+  0%   {color: black;}
+  8.33333333333%   {color: blue;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
+  100% {color: black;}
 }
 
 .loopBlue {
-  animation: colorchangeBlue 10s; /* animation-name followed by duration in seconds*/
-  animation-iteration-count:infinite; 
-
-  -webkit-animation: colorchangeBlue 10s; /* Chrome and Safari */
+  animation: colorchangeBlue 20s; /* animation-name followed by duration in seconds*/
+  animation-iteration-count:infinite;
+  -webkit-animation: colorchangeBlue 20s; /* Chrome and Safari */
   -webkit-animation-iteration-count:infinite; 
 }
 
-
-@keyframes colorchangeRed
+@keyframes colorchangeOrange
 {
   0%   {color: black;}
-  12.5%  {color: black;}
-  25%  {color: red;}
-  37.5%  {color: black;}
-  50% {color: black;}
-  62.5%  {color: black;}
-  75%  {color: black;}
-  87.5%  {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: orange;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
   100% {color: black;}
 }
 
-@-webkit-keyframes colorchangeRed /* Safari and Chrome - necessary duplicate */
+@-webkit-keyframes colorchangeOrange /* Safari and Chrome - necessary duplicate */
 {
   0%   {color: black;}
-  12.5%  {color: black;}
-  25%  {color: red;}
-  37.5%  {color: black;}
-  50% {color: black;}
-  62.5%  {color: black;}
-  75%  {color: black;}
-  87.5%  {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: orange;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
   100% {color: black;}
 }
 
-.loopRed {
-  animation: colorchangeRed 10s; /* animation-name followed by duration in seconds*/
-  animation-iteration-count:infinite; 
+.loopOrange {
+  animation: colorchangeOrange 20s; /* animation-name followed by duration in seconds*/
+  animation-iteration-count:infinite;
 
-  -webkit-animation: colorchangeRed 10s; /* Chrome and Safari */
-  -webkit-animation-iteration-count:infinite; 
+  -webkit-animation: colorchangeOrange 20s; /* Chrome and Safari */
+  -webkit-animation-iteration-count:infinite;
 }
 
+@keyframes colorchangeGrey
+{
+  0%   {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: grey;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
+  100% {color: black;}
+}
 
+@-webkit-keyframes colorchangeGrey /* Safari and Chrome - necessary duplicate */
+{
+  0%   {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: grey;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
+  100% {color: black;}
+}
 
+.loopGrey {
+  animation: colorchangeGrey 20s; /* animation-name followed by duration in seconds*/
+  animation-iteration-count:infinite;
+
+  -webkit-animation: colorchangeGrey 20s; /* Chrome and Safari */
+  -webkit-animation-iteration-count:infinite;
+}
 
 @keyframes colorchangeGreen
 {
   0%   {color: black;}
-  12.5%  {color: black;}
-  25%  {color: black;}
-  37.5%  {color: black;}
-  50% {color: green;}
-  62.5%  {color: black;}
-  75%  {color: black;}
-  87.5%  {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: green;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
   100% {color: black;}
 }
 
 @-webkit-keyframes colorchangeGreen /* Safari and Chrome - necessary duplicate */
 {
   0%   {color: black;}
-  12.5%  {color: black;}
-  25%  {color: black;}
-  37.5%  {color: black;}
-  50% {color: green;}
-  62.5%  {color: black;}
-  75%  {color: black;}
-  87.5%  {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: green;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
   100% {color: black;}
 }
 
 .loopGreen {
-  animation: colorchangeGreen 10s; /* animation-name followed by duration in seconds*/
-  animation-iteration-count:infinite; 
+  animation: colorchangeGreen 20s; /* animation-name followed by duration in seconds*/
+  animation-iteration-count:infinite;
 
-  -webkit-animation: colorchangeGreen 10s; /* Chrome and Safari */
-  -webkit-animation-iteration-count:infinite; 
+  -webkit-animation: colorchangeGreen 20s; /* Chrome and Safari */
+  -webkit-animation-iteration-count:infinite;
 }
-
-
 
 @keyframes colorchangeYellow
 {
   0%   {color: black;}
-  12.5%  {color: black;}
-  25%  {color: black;}
-  37.5%  {color: black;}
-  50% {color: black;}
-  62.5%  {color: black;}
-  75%  {color: yellow;}
-  87.5%  {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: yellow;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
   100% {color: black;}
 }
 
 @-webkit-keyframes colorchangeYellow /* Safari and Chrome - necessary duplicate */
 {
   0%   {color: black;}
-  12.5%  {color: black;}
-  25%  {color: black;}
-  37.5%  {color: black;}
-  50% {color: black;}
-  62.5%  {color: black;}
-  75%  {color: yellow;}
-  87.5%  {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: yellow;}
+  83.3333333333%  {color: black;}
+  91.6666666667%  {color: black;}
   100% {color: black;}
 }
 
 .loopYellow {
-  animation: colorchangeYellow 10s; /* animation-name followed by duration in seconds*/
+  animation: colorchangeYellow 20s; /* animation-name followed by duration in seconds*/
   animation-iteration-count:infinite; 
 
-  -webkit-animation: colorchangeYellow 10s; /* Chrome and Safari */
+  -webkit-animation: colorchangeYellow 20s; /* Chrome and Safari */
   -webkit-animation-iteration-count:infinite; 
+}
+
+@keyframes colorchangeRed
+{
+  0%   {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: re;}
+  91.6666666667%  {color: red;}
+  100% {color: black;}
+}
+
+@-webkit-keyframes colorchangeRed /* Safari and Chrome - necessary duplicate */
+{
+  0%   {color: black;}
+  8.33333333333%   {color: black;}
+  16.6666666667%  {color: black;}
+  25.0%   {color: black;}
+  33.3333333333%  {color: black;}
+  41.6666666667%   {color: black;}
+  50.0%  {color: black;}
+  58.3333333333%   {color: black;}
+  66.6666666667%  {color: black;}
+  75.0%   {color: black;}
+  83.3333333333%  {color: red;}
+  91.6666666667%  {color: black;}
+  100% {color: black;}
+}
+
+.loopRed {
+  animation: colorchangeRed 20s; /* animation-name followed by duration in seconds*/
+  animation-iteration-count:infinite;
+
+  -webkit-animation: colorchangeRed 20s; /* Chrome and Safari */
+  -webkit-animation-iteration-count:infinite;
 }
