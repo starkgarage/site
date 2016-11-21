@@ -25,7 +25,6 @@ body, html {
     float: left;
 }
 
-
 .tech {
   transition: filter 0.5s ease;
   filter: grayscale(0%);
@@ -39,10 +38,6 @@ background-color:green;
 display:none;
 }
 
-
-
-
-
 #loader-wrapper .loader-section {
     position: fixed;
     top: 0;
@@ -51,8 +46,6 @@ display:none;
     background: black;
     z-index: 1000;
 }
- 
-
 
 #loader {
     z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
@@ -62,9 +55,6 @@ display:none;
 	width: 10%;
 
 }
-
-
- 
 
 .loaded #loader-wrapper {
     visibility: hidden;
@@ -87,26 +77,12 @@ display:none;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 </style>
 <head>
 <link rel="icon" href="media/tablogo.png">
 
 </head>
 <body>
-
-
 
       <div id="loader-wrapper">
          <div id="loader-section" class="loader-section">    
@@ -170,29 +146,41 @@ display:none;
 </header>
 
 <!-- About Section -->
-<div class="w3-container w3-padding-128" id="about">
+<div class="w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT</h3>
   <p class="w3-center w3-large">Key features of our company</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
+  <div class="w3-row-padding w3-center" style="margin-top:32px">
+    <div class="w3-third">
       <i class="fa fa-laptop w3-margin-bottom w3-jumbo w3-center loopBlue"></i>
       <p class="w3-large">We build</p>
-      <p>We build cores, interfaces, models, mobile apps, etc. But more than that... we build SOLUTIONS. </p>
+      <p>We build cores, interfaces, predictive models, mobile apps, etc. But more than that... we build SOLUTIONS. </p>
     </div>
-    <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo loopRed"></i>
-      <p class="w3-large">We love</p>
-      <p>We love what we do, so we do it with the same passion as the first day.</p>
+    <div class="w3-third">
+      <i class="fa fa-wrench w3-margin-bottom w3-jumbo w3-center loopOrange"></i>
+      <p class="w3-large">We refactor</p>
+      <p>Do you have an application? We do fixes and we develop new requeriments on existing applications... we don't reinvent the wheel. </p>
     </div>
-    <div class="w3-quarter">
-      <i class="fa fa-institution w3-margin-bottom w3-jumbo loopGreen"></i>
+    <div class="w3-third">
+      <i class="fa fa-institution w3-margin-bottom w3-jumbo loopGrey"></i>
       <p class="w3-large">We research</p>
       <p>Every single day, a new technology is raising, so we are in permanent research, for being a top-tech software factory.</p>
     </div>
-    <div class="w3-quarter">
+  </div>
+  <div class="w3-row-padding w3-center" style="margin-top:32px">
+    <div class="w3-third">
+      <i class="fa fa-calendar-check-o w3-margin-bottom w3-jumbo loopGreen"></i>
+      <p class="w3-large">We compromise</p>
+      <p>We finish all that we started and we document all important details.</p>
+    </div>
+    <div class="w3-third">
       <i class="fa fa-lightbulb-o w3-margin-bottom w3-jumbo loopYellow"></i>
       <p class="w3-large">We imagine</p>
       <p>Imagination has no limits. And it is with that thought that we face every challenge that comes to us.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo loopRed"></i>
+      <p class="w3-large">We love</p>
+      <p>We love what we do, so we do it with the same passion as the first day.</p>
     </div>
   </div>
 </div>
