@@ -45,7 +45,9 @@
     "versionPublish": "4.8.3",
     "favicon": "@PROJECT_PATH@/assets/images/tablogo-128x128.png",
     "noImageResize": "",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///Users/dario/Desarrollo/GitRepositories/site/cloud"
   },
   "pages": {
     "index.html": {

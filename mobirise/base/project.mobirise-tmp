@@ -37,7 +37,9 @@
     "siteFonts": [],
     "uniqCompNum": 18,
     "versionPublish": "4.8.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///Users/dario/Desarrollo/GitRepositories/site/base"
   },
   "pages": {
     "index.html": {
