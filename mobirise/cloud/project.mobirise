@@ -41,7 +41,7 @@
         "url": "https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,300,400,500,700,800,900"
       }
     ],
-    "uniqCompNum": 10,
+    "uniqCompNum": 12,
     "versionPublish": "4.8.3",
     "favicon": "@PROJECT_PATH@/assets/images/tablogo-128x128.png",
     "noImageResize": "",
